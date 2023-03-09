@@ -1,0 +1,121 @@
+* {
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.simulador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: solid 1px rgb(11, 58, 146);
+    border-radius: 1.5rem;
+    font-size: xx-large;
+}
+
+
+
+@media(max-width: 780px) {
+    .simulador {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+}
+
+@media(max-width: 520px) {
+    .simulador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+
+    .simulador_resultados {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    button {
+        margin-right: 12px;
+        justify-content: center;
+    }
+
+    .simulador_div {
+        display: flex;
+        flex-direction: column;
+        line-height: none;
+    }
+
+    .simulador_label {
+        padding-right: 10px;
+    }
+}
+
+.simulador_label {
+    display: flex;
+    padding-right: 5px;
+}
+
+
+.simulador_input {
+    display: flex;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(227, 226, 255);
+    border: none;
+    text-decoration: none;
+}
+
+
+input {
+    border-width: 0px;
+    font-size: xx-large;
+}
+
+
+button {
+    display: flex;
+    border: none;
+    border-radius: 0.5rem;
+    background-color:  rgb(11, 58, 146);
+    color: white;
+    margin-left: 18px;
+    font-size: xx-large;
+}
+
+
+
+.simulador_resultados {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.simulador_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
